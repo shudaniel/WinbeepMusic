@@ -2,7 +2,7 @@ import winsound
 from time import sleep
 
 def quarter():
-    return 1000
+    return 500
 
 def half():
     return quarter() * 2
@@ -74,6 +74,9 @@ def A(duration):
 
 def B(duration):
     winsound.Beep(494, duration)
+
+def highC(duration):
+    winsound.Beep(523, duration)
 
 def highD(duration):
     winsound.Beep(587, duration)  # High D
